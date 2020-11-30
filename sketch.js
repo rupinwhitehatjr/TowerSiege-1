@@ -4,8 +4,7 @@ function setup() {
   createCanvas(800,800);
   stroke(255)
   
- // camera=new Camera(width/2,height/2,0.5);
-  //camera.on();
+ 
   a=height;
   circles.push(width/2)
 }
@@ -16,8 +15,7 @@ function draw() {
   
   
   a=a-1;
-  //camera.zoom=camera.zoom+0.01
- //camera.position={x:width/2,y:a}
+  
  
   
   for (i=0;i<circles.length;i++)
@@ -36,9 +34,5 @@ function keyPressed ()
 {
   if(keyCode === RIGHT_ARROW)
   {
-    if(keyIsDown(RIGHT_ARROW))
-    {
-      camera.position.x=camera.position.x+10;
-    }
   }
 } 
