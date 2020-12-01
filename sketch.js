@@ -26,7 +26,7 @@ if(camera.position.x%width===0)
 {
 	circles.push(camera.position.x+width/2)
 }
- // camera(0, 0, 20 + sin(frameCount * 0.01) * 10, 0, 0, 0, 0, 1, 0);
+ 
  drawSprites();
 }
 
